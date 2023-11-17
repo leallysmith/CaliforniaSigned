@@ -1,0 +1,13 @@
+,field,full_field_name
+0,name,name
+1,slpMn,slope_min
+2,slpMx,slope_max
+3,aspct,aspect
+4,geometry,geometry
+5,slpSrc,slope_source
+6,lyrId,layer_id
+7,lyrKy,layer_key
+8,exFrmBldbl,exclude_from_buildable
+9,lbl,label
+10,stbckm,setback (m)
+11,ar,area

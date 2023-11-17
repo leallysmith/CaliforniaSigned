@@ -1,0 +1,106 @@
+,field,full_field_name
+0,descrption,description
+1,bldblPrcnt,Buildable (%)
+2,AcresBldbl,Buildable (acre)
+3,name,name
+4,lbl,label
+5,geometry,geometry
+6,hghlghtSth,Highlight southern slope hazards
+7,sthrnAspct,Southern aspect range (degrees)
+8,incldLwstS,Include lowest slope in output drawing
+9,hghSlpStbc,High Slope Setback (m)
+10,rmvHghSlpF,Remove high slope from buildable area
+11,mxSlp,Max Slope (%)
+12,fld100YrSt,Flood 100-Year Setback (m)
+13,rmv100YrFr,Remove 100-year from buildable area
+14,fld500YrSt,Flood 500-Year Setback (m)
+15,rmv500YrFr,Remove 500-year from buildable area
+16,wtlndsStbc,Wetlands Setback (m)
+17,rmvWtlndFr,Remove wetlands from buildable area
+18,mxTrCvr,Max tree cover (%)
+19,trCvrStbck,Tree Cover Setback (m)
+20,rmvTrCvrFr,Remove tree cover from buildable area
+21,rdsStbckm,Roads Setback (m)
+22,rmvRdsFrmB,Remove roads from buildable area
+23,bldngsStbc,Buildings Setback (m)
+24,rmvBldngsF,Remove buildings from buildable area
+25,trnsmssnLn,Transmission Lines Setback (m)
+26,rmvLnsFrmB,Remove lines from buildable area
+27,rlwysStbck,Railways Setback (m)
+28,rmvRlwysFr,Remove railways from buildable area
+29,arprtRnwys,Airport Runways Setback (m)
+30,rmvRnwysFr,Remove runways from buildable area
+31,olAndNtrlG,Oil and Natural Gas Wells Setback (m)
+32,rmvOlgsWll,Remove oil/gas wells from buildable area
+33,cnsrvtnEsm,Conservation Easements Setback (m)
+34,rmvEsmntsF,Remove easements from buildable area
+35,crtclHbtts,Critical Habitats Setback (m)
+36,rmvHbttsFr,Remove habitats from buildable area
+37,pblcLndsSt,Public Lands Setback (m)
+38,rmvLndsFrm,Remove lands from buildable area
+39,hghSlpRel,High Slope - Relative (%)
+40,hghSlpAcrs,High Slope - Acres
+41,stbckRel,High Slope inc. Setback - Relative (%)
+42,hghSlpFtrC,High Slope - Feature Count
+43,fld100YrRe,Flood 100-Year - Relative (%)
+44,fld100YrAc,Flood 100-Year - Acres
+45,stbckRel0,Flood 100-Year inc. Setback - Relative (%)
+46,fld100YrFt,Flood 100-Year - Feature Count
+47,fld500YrRe,Flood 500-Year - Relative (%)
+48,fld500YrAc,Flood 500-Year - Acres
+49,stbckRel1,Flood 500-Year inc. Setback - Relative (%)
+50,fld500YrFt,Flood 500-Year - Feature Count
+51,wtlndsRel,Wetlands - Relative (%)
+52,wtlndsAcrs,Wetlands - Acres
+53,stbckRel2,Wetlands inc. Setback - Relative (%)
+54,wtlndsFtrC,Wetlands - Feature Count
+55,trCvrRel,Tree Cover - Relative (%)
+56,trCvrAcrs,Tree Cover - Acres
+57,stbckRel3,Tree Cover inc. Setback - Relative (%)
+58,trCvrFtrCn,Tree Cover - Feature Count
+59,rdsRel,Roads - Relative (%)
+60,rdsAcrs,Roads - Acres
+61,stbckRel4,Roads inc. Setback - Relative (%)
+62,rdsFtrCnt,Roads - Feature Count
+63,bldngsRel,Buildings - Relative (%)
+64,bldngsAcrs,Buildings - Acres
+65,stbckRel5,Buildings inc. Setback - Relative (%)
+66,bldngsFtrC,Buildings - Feature Count
+67,trnsmssnL0,Transmission Lines - Relative (%)
+68,trnsmssnL1,Transmission Lines - Acres
+69,stbckRel6,Transmission Lines inc. Setback - Relative (%)
+70,trnsmssnL2,Transmission Lines - Feature Count
+71,rlwysRel,Railways - Relative (%)
+72,rlwysAcrs,Railways - Acres
+73,stbckRel7,Railways inc. Setback - Relative (%)
+74,rlwysFtrCn,Railways - Feature Count
+75,arprtRnwy0,Airport Runways - Relative (%)
+76,arprtRnwy1,Airport Runways - Acres
+77,stbckRel8,Airport Runways inc. Setback - Relative (%)
+78,arprtRnwy2,Airport Runways - Feature Count
+79,olAndNtrl0,Oil and Natural Gas Wells - Relative (%)
+80,olAndNtrl1,Oil and Natural Gas Wells - Acres
+81,stbckRel9,Oil and Natural Gas Wells inc. Setback - Relative (%)
+82,olAndNtrl2,Oil and Natural Gas Wells - Feature Count
+83,cnsrvtnEs0,Conservation Easements - Relative (%)
+84,cnsrvtnEs1,Conservation Easements - Acres
+85,stbckRel10,Conservation Easements inc. Setback - Relative (%)
+86,cnsrvtnEs2,Conservation Easements - Feature Count
+87,crtclHbtt0,Critical Habitats - Relative (%)
+88,crtclHbtt1,Critical Habitats - Acres
+89,stbckRel11,Critical Habitats inc. Setback - Relative (%)
+90,crtclHbtt2,Critical Habitats - Feature Count
+91,pblcLndsRe,Public Lands - Relative (%)
+92,pblcLndsAc,Public Lands - Acres
+93,stbckRel12,Public Lands inc. Setback - Relative (%)
+94,pblcLndsFt,Public Lands - Feature Count
+95,anlyssSrs,Analysis SRS
+96,bVrsn,BAA Version
+97,bldToSmAc,buildable_too_small_acres
+98,bldblTSm,Buildable Too Small (%)
+99,bldblTSmcr,Buildable Too Small (acre)
+100,slpByAspct,Slope By Aspect
+101,mxSlpNrth,Max Slope - North (%)
+102,mxSlpSth,Max Slope - South (%)
+103,mxSlpEst,Max Slope - East (%)
+104,mxSlpWst,Max Slope - West (%)
