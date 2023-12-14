@@ -59,7 +59,7 @@ var lyr_CoalClosureEnergyCommunities_4 = new ol.layer.Vector({
                 declutter: true,
                 source:jsonSource_CoalClosureEnergyCommunities_4, 
                 style: style_CoalClosureEnergyCommunities_4,
-                interactive: true,
+                interactive: false,
     title: 'Coal Closure Energy Communities<br />\
     <img src="styles/legend/CoalClosureEnergyCommunities_4_0.png" /> Census tract directly adjoining a census tract with a coal closure<br />\
     <img src="styles/legend/CoalClosureEnergyCommunities_4_1.png" /> Census tract with a coal closure<br />'
@@ -75,7 +75,7 @@ var lyr_MSANonMSAsthatareEnergyCommunities_5 = new ol.layer.Vector({
                 declutter: true,
                 source:jsonSource_MSANonMSAsthatareEnergyCommunities_5, 
                 style: style_MSANonMSAsthatareEnergyCommunities_5,
-                interactive: true,
+                interactive: false,
     title: 'MSA/Non-MSAs that are Energy Communities<br />\
     <img src="styles/legend/MSANonMSAsthatareEnergyCommunities_5_0.png" /> is an energy community, as it meets both the Fossil Fuel Employment (FFE) threshold and the unemployment rate requirement<br />'
         });
@@ -90,7 +90,7 @@ var lyr_AdditionalSelectionCriteriaGeographicOption2PersistentPovertyCounty_6 = 
                 declutter: true,
                 source:jsonSource_AdditionalSelectionCriteriaGeographicOption2PersistentPovertyCounty_6, 
                 style: style_AdditionalSelectionCriteriaGeographicOption2PersistentPovertyCounty_6,
-                interactive: true,
+                interactive: false,
                 title: '<img src="styles/legend/AdditionalSelectionCriteriaGeographicOption2PersistentPovertyCounty_6.png" /> Additional Selection Criteria Geographic Option 2 Persistent Poverty County'
             });
 var format_AdditionalSelectionCriteriaGeographicOption1CEJSTEnergy_7 = new ol.format.GeoJSON();
@@ -104,7 +104,7 @@ var lyr_AdditionalSelectionCriteriaGeographicOption1CEJSTEnergy_7 = new ol.layer
                 declutter: true,
                 source:jsonSource_AdditionalSelectionCriteriaGeographicOption1CEJSTEnergy_7, 
                 style: style_AdditionalSelectionCriteriaGeographicOption1CEJSTEnergy_7,
-                interactive: true,
+                interactive: false,
                 title: '<img src="styles/legend/AdditionalSelectionCriteriaGeographicOption1CEJSTEnergy_7.png" /> Additional Selection Criteria Geographic Option 1 CEJST Energy'
             });
 var format_Category1Eligibility_8 = new ol.format.GeoJSON();
@@ -118,7 +118,7 @@ var lyr_Category1Eligibility_8 = new ol.layer.Vector({
                 declutter: true,
                 source:jsonSource_Category1Eligibility_8, 
                 style: style_Category1Eligibility_8,
-                interactive: true,
+                interactive: false,
                 title: '<img src="styles/legend/Category1Eligibility_8.png" /> Category 1 Eligibility'
             });
 var format_SDGESubstations_9 = new ol.format.GeoJSON();
