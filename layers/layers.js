@@ -59,6 +59,7 @@ var lyr_CoalClosureEnergyCommunities_4 = new ol.layer.Vector({
                 declutter: true,
                 source:jsonSource_CoalClosureEnergyCommunities_4, 
                 style: style_CoalClosureEnergyCommunities_4,
+                popuplayertitle: "Coal Closure Energy Communities",
                 interactive: false,
     title: 'Coal Closure Energy Communities<br />\
     <img src="styles/legend/CoalClosureEnergyCommunities_4_0.png" /> Census tract directly adjoining a census tract with a coal closure<br />\
@@ -75,6 +76,7 @@ var lyr_MSANonMSAsthatareEnergyCommunities_5 = new ol.layer.Vector({
                 declutter: true,
                 source:jsonSource_MSANonMSAsthatareEnergyCommunities_5, 
                 style: style_MSANonMSAsthatareEnergyCommunities_5,
+                popuplayertitle: "MSA/Non-MSAs that are Energy Communities",
                 interactive: false,
     title: 'MSA/Non-MSAs that are Energy Communities<br />\
     <img src="styles/legend/MSANonMSAsthatareEnergyCommunities_5_0.png" /> is an energy community, as it meets both the Fossil Fuel Employment (FFE) threshold and the unemployment rate requirement<br />'
@@ -90,6 +92,7 @@ var lyr_AdditionalSelectionCriteriaGeographicOption2PersistentPovertyCounty_6 = 
                 declutter: true,
                 source:jsonSource_AdditionalSelectionCriteriaGeographicOption2PersistentPovertyCounty_6, 
                 style: style_AdditionalSelectionCriteriaGeographicOption2PersistentPovertyCounty_6,
+                popuplayertitle: "Additional Selection Criteria Geographic Option 2 Persistent Poverty County",
                 interactive: false,
                 title: '<img src="styles/legend/AdditionalSelectionCriteriaGeographicOption2PersistentPovertyCounty_6.png" /> Additional Selection Criteria Geographic Option 2 Persistent Poverty County'
             });
@@ -104,6 +107,7 @@ var lyr_AdditionalSelectionCriteriaGeographicOption1CEJSTEnergy_7 = new ol.layer
                 declutter: true,
                 source:jsonSource_AdditionalSelectionCriteriaGeographicOption1CEJSTEnergy_7, 
                 style: style_AdditionalSelectionCriteriaGeographicOption1CEJSTEnergy_7,
+                popuplayertitle: "Additional Selection Criteria Geographic Option 1 CEJST Energy",
                 interactive: false,
                 title: '<img src="styles/legend/AdditionalSelectionCriteriaGeographicOption1CEJSTEnergy_7.png" /> Additional Selection Criteria Geographic Option 1 CEJST Energy'
             });
@@ -118,6 +122,7 @@ var lyr_Category1Eligibility_8 = new ol.layer.Vector({
                 declutter: true,
                 source:jsonSource_Category1Eligibility_8, 
                 style: style_Category1Eligibility_8,
+                popuplayertitle: "Category 1 Eligibility",
                 interactive: false,
                 title: '<img src="styles/legend/Category1Eligibility_8.png" /> Category 1 Eligibility'
             });
@@ -132,8 +137,9 @@ var lyr_SDGESubstations_9 = new ol.layer.Vector({
                 declutter: true,
                 source:jsonSource_SDGESubstations_9, 
                 style: style_SDGESubstations_9,
+                popuplayertitle: "SDGE Substations",
                 interactive: false,
-                title: '<img src="styles/legend/SDGESubstations_9.png" /> SDG&E Substations'
+                title: '<img src="styles/legend/SDGESubstations_9.png" /> SDGE Substations'
             });
 var format_PGESubstations_10 = new ol.format.GeoJSON();
 var features_PGESubstations_10 = format_PGESubstations_10.readFeatures(json_PGESubstations_10, 
@@ -146,6 +152,7 @@ var lyr_PGESubstations_10 = new ol.layer.Vector({
                 declutter: true,
                 source:jsonSource_PGESubstations_10, 
                 style: style_PGESubstations_10,
+                popuplayertitle: "PG&E Substations",
                 interactive: false,
                 title: '<img src="styles/legend/PGESubstations_10.png" /> PG&E Substations'
             });
@@ -160,6 +167,7 @@ var lyr_SCESubstations_11 = new ol.layer.Vector({
                 declutter: true,
                 source:jsonSource_SCESubstations_11, 
                 style: style_SCESubstations_11,
+                popuplayertitle: "SCE Substations",
                 interactive: false,
                 title: '<img src="styles/legend/SCESubstations_11.png" /> SCE Substations'
             });
@@ -174,6 +182,7 @@ var lyr_CaliforniaUtilities_12 = new ol.layer.Vector({
                 declutter: true,
                 source:jsonSource_CaliforniaUtilities_12, 
                 style: style_CaliforniaUtilities_12,
+                popuplayertitle: "California Utilities",
                 interactive: false,
     title: 'California Utilities<br />\
     <img src="styles/legend/CaliforniaUtilities_12_0.png" /> PACIFIC GAS & ELECTRIC CO.<br />\
@@ -191,6 +200,7 @@ var lyr_California_13 = new ol.layer.Vector({
                 declutter: true,
                 source:jsonSource_California_13, 
                 style: style_California_13,
+                popuplayertitle: "California",
                 interactive: false,
                 title: '<img src="styles/legend/California_13.png" /> California'
             });
@@ -205,7 +215,8 @@ var lyr_CaliforniaCounties_14 = new ol.layer.Vector({
                 declutter: true,
                 source:jsonSource_CaliforniaCounties_14, 
                 style: style_CaliforniaCounties_14,
-                interactive: false,
+                popuplayertitle: "California Counties",
+                interactive: true,
                 title: '<img src="styles/legend/CaliforniaCounties_14.png" /> California Counties'
             });
 var format_CaliforniaCountyNames_15 = new ol.format.GeoJSON();
@@ -219,7 +230,8 @@ var lyr_CaliforniaCountyNames_15 = new ol.layer.Vector({
                 declutter: true,
                 source:jsonSource_CaliforniaCountyNames_15, 
                 style: style_CaliforniaCountyNames_15,
-                interactive: true,
+                popuplayertitle: "California County Names",
+                interactive: false,
                 title: '<img src="styles/legend/CaliforniaCountyNames_15.png" /> California County Names'
             });
 var format_SignedParcelslastupdated21224_16 = new ol.format.GeoJSON();
@@ -236,7 +248,8 @@ var lyr_SignedParcelslastupdated21224_16 = new ol.layer.Vector({
                 declutter: true,
                 source:cluster_SignedParcelslastupdated21224_16, 
                 style: style_SignedParcelslastupdated21224_16,
-                interactive: false,
+                popuplayertitle: "Signed Parcels (last updated 2/12/24)",
+                interactive: true,
                 title: '<img src="styles/legend/SignedParcelslastupdated21224_16.png" /> Signed Parcels (last updated 2/12/24)'
             });
 var format_SignedParcelNameslastupdated21224_17 = new ol.format.GeoJSON();
@@ -250,7 +263,8 @@ var lyr_SignedParcelNameslastupdated21224_17 = new ol.layer.Vector({
                 declutter: true,
                 source:jsonSource_SignedParcelNameslastupdated21224_17, 
                 style: style_SignedParcelNameslastupdated21224_17,
-                interactive: true,
+                popuplayertitle: "Signed Parcel Names (last updated 2/12/24)",
+                interactive: false,
                 title: '<img src="styles/legend/SignedParcelNameslastupdated21224_17.png" /> Signed Parcel Names (last updated 2/12/24)'
             });
 var group_CaliforniaSubstations = new ol.layer.Group({
@@ -306,9 +320,9 @@ lyr_PGESubstations_10.set('fieldLabels', {});
 lyr_SCESubstations_11.set('fieldLabels', {});
 lyr_CaliforniaUtilities_12.set('fieldLabels', {'OBJECTID': 'no label', 'ID': 'no label', 'NAME': 'no label', 'ADDRESS': 'no label', 'CITY': 'no label', 'STATE': 'no label', 'ZIP': 'no label', 'TELEPHONE': 'no label', 'TYPE': 'no label', 'COUNTRY': 'no label', 'NAICS_CODE': 'no label', 'NAICS_DESC': 'no label', 'SOURCE': 'no label', 'SOURCEDATE': 'no label', 'VAL_METHOD': 'no label', 'VAL_DATE': 'no label', 'WEBSITE': 'no label', 'REGULATED': 'no label', 'CNTRL_AREA': 'no label', 'PLAN_AREA': 'no label', 'HOLDING_CO': 'no label', 'SUMMR_PEAK': 'no label', 'WINTR_PEAK': 'no label', 'SUMMER_CAP': 'no label', 'WINTER_CAP': 'no label', 'NET_GEN': 'no label', 'PURCHASED': 'no label', 'NET_EX': 'no label', 'RETAIL_MWH': 'no label', 'WSALE_MWH': 'no label', 'TOTAL_MWH': 'no label', 'TRANS_MWH': 'no label', 'CUSTOMERS': 'no label', 'YEAR': 'no label', 'Shape__Are': 'no label', 'Shape__Len': 'no label', });
 lyr_California_13.set('fieldLabels', {'STATE': 'no label', 'NAME': 'no label', 'FIPS': 'no label', 'LON': 'no label', 'LAT': 'no label', });
-lyr_CaliforniaCounties_14.set('fieldLabels', {'STATEFP': 'no label', 'COUNTYFP': 'no label', 'COUNTYNS': 'no label', 'GEOID': 'no label', 'NAME': '', 'NAMELSAD': 'no label', 'LSAD': 'no label', 'CLASSFP': 'no label', 'MTFCC': 'no label', 'CSAFP': 'no label', 'CBSAFP': 'no label', 'METDIVFP': 'no label', 'FUNCSTAT': 'no label', 'ALAND': 'no label', 'AWATER': 'no label', 'INTPTLAT': 'no label', 'INTPTLON': 'no label', });
+lyr_CaliforniaCounties_14.set('fieldLabels', {'STATEFP': 'no label', 'COUNTYFP': 'no label', 'COUNTYNS': 'no label', 'GEOID': 'no label', 'NAME': 'header label - visible with data', 'NAMELSAD': 'no label', 'LSAD': 'no label', 'CLASSFP': 'no label', 'MTFCC': 'no label', 'CSAFP': 'no label', 'CBSAFP': 'no label', 'METDIVFP': 'no label', 'FUNCSTAT': 'no label', 'ALAND': 'no label', 'AWATER': 'no label', 'INTPTLAT': 'no label', 'INTPTLON': 'no label', });
 lyr_CaliforniaCountyNames_15.set('fieldLabels', {'STATEFP': 'no label', 'COUNTYFP': 'no label', 'COUNTYNS': 'no label', 'GEOID': 'no label', 'NAME': 'header label - visible with data', 'NAMELSAD': 'no label', 'LSAD': 'no label', 'CLASSFP': 'no label', 'MTFCC': 'no label', 'CSAFP': 'no label', 'CBSAFP': 'no label', 'METDIVFP': 'no label', 'FUNCSTAT': 'no label', 'ALAND': 'no label', 'AWATER': 'no label', 'INTPTLAT': 'no label', 'INTPTLON': 'no label', });
-lyr_SignedParcelslastupdated21224_16.set('fieldLabels', {'Opportunity Name': 'no label', 'Account Name': 'no label', 'Lease Area (Acres or Square Feet)': 'no label', 'AO Link': 'no label', 'Site Lat/Long Coordinates (Latitude)': 'no label', 'Site Lat/Long Coordinates (Longitude)': 'no label', 'Market': 'no label', 'Utility': 'no label', });
+lyr_SignedParcelslastupdated21224_16.set('fieldLabels', {'Opportunity Name': 'header label - visible with data', 'Account Name': 'header label - visible with data', 'Lease Area (Acres or Square Feet)': 'header label - visible with data', 'AO Link': 'header label - visible with data', 'Site Lat/Long Coordinates (Latitude)': 'header label - visible with data', 'Site Lat/Long Coordinates (Longitude)': 'header label - visible with data', 'Market': 'header label - visible with data', 'Utility': 'header label - visible with data', });
 lyr_SignedParcelNameslastupdated21224_17.set('fieldLabels', {'Opportunity Name': 'header label - visible with data', 'Account Name': 'header label - visible with data', 'Lease Area (Acres or Square Feet)': 'header label - visible with data', 'AO Link': 'header label - visible with data', 'Site Lat/Long Coordinates (Latitude)': 'header label - visible with data', 'Site Lat/Long Coordinates (Longitude)': 'header label - visible with data', 'Market': 'header label - visible with data', 'Utility': 'header label - visible with data', });
 lyr_SignedParcelNameslastupdated21224_17.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
