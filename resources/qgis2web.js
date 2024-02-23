@@ -88,6 +88,19 @@ var map = new ol.Map({
 var layerSwitcher = new ol.control.LayerSwitcher({tipLabel: "Layers"});
 map.addControl(layerSwitcher);
 
+    var searchLayer = new SearchLayer({
+      layer: lyr_SignedParcelNameslastupdated21224_17,
+      colName: 'Opportunity Name',
+      zoom: 10,
+      collapsed: true,
+      map: map
+    });
+
+    map.addControl(searchLayer);
+    document.getElementsByClassName('search-layer')[0]
+    .getElementsByTagName('button')[0].className +=
+    ' fa fa-binoculars';
+    
 map.getView().fit([-15059993.888645, 3492204.491883, -11195054.966078, 5326640.408570], map.getSize());
 
 var NO_POPUP = 0
