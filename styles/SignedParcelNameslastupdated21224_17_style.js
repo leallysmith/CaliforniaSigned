@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_SignedParcelNames = function(feature, resolution){
+var style_SignedParcelNameslastupdated21224_17 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
