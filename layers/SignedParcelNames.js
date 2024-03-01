@@ -1,6 +1,6 @@
-var json_SignedParcelNameslastupdated21224_17 = {
+var json_SignedParcelNames = {
 "type": "FeatureCollection",
-"name": "SignedParcelNameslastupdated21224_17",
+"name": "SignedParcelNames",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
 { "type": "Feature", "properties": { "Opportunity Name": "Wishbone DG Solar", "Account Name": "Sran Jasbir S Shinderpal K Trust", "Lease Area (Acres or Square Feet)": 32.0, "AO Link": "https://andersonopt.com/team/dynamic_energy-ca/asset/rau_AAAXg6Reoj2GgRVc", "Site Lat/Long Coordinates (Latitude)": 36.60661, "Site Lat/Long Coordinates (Longitude)": -120.18125, "Market": "CA", "Utility": "PG&E" }, "geometry": { "type": "Point", "coordinates": [ -120.181252, 36.606612 ] } },
