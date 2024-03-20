@@ -248,9 +248,9 @@ var lyr_SignedParcelslastupdated21224_16 = new ol.layer.Vector({
                 declutter: true,
                 source:cluster_SignedParcelslastupdated21224_16, 
                 style: style_SignedParcelslastupdated21224_16,
-                popuplayertitle: "Signed Parcels (last updated 2/12/24)",
+                popuplayertitle: "Signed Parcels (last updated 3/20/24)",
                 interactive: true,
-                title: '<img src="styles/legend/SignedParcelslastupdated21224_16.png" /> Signed Parcels (last updated 3/1/24)'
+                title: '<img src="styles/legend/SignedParcelslastupdated21224_16.png" /> Signed Parcels (last updated 3/20/24)'
             });
 var format_SignedParcelNameslastupdated21224_17 = new ol.format.GeoJSON();
 var features_SignedParcelNameslastupdated21224_17 = format_SignedParcelNameslastupdated21224_17.readFeatures(json_SignedParcelNameslastupdated21224_17, 
@@ -263,9 +263,9 @@ var lyr_SignedParcelNameslastupdated21224_17 = new ol.layer.Vector({
                 declutter: true,
                 source:jsonSource_SignedParcelNameslastupdated21224_17, 
                 style: style_SignedParcelNameslastupdated21224_17,
-                popuplayertitle: "Signed Parcel Names (last updated 2/12/24)",
+                popuplayertitle: "Signed Parcel Names (last updated 3/20/24)",
                 interactive: false,
-                title: '<img src="styles/legend/SignedParcelNameslastupdated21224_17.png" /> Signed Parcel Names (last updated 3/1/24)'
+                title: '<img src="styles/legend/SignedParcelNameslastupdated21224_17.png" /> Signed Parcel Names (last updated 3/20/24)'
             });
 var group_CaliforniaSubstations = new ol.layer.Group({
                                 layers: [lyr_SDGESubstations_9,lyr_PGESubstations_10,lyr_SCESubstations_11,],
